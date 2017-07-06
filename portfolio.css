@@ -144,4 +144,5 @@ textarea {
 	height: 60px;
 	color: #9d9d9d; 
 	background-color: #222;
+	border-top: 1px solid #000;
 }
