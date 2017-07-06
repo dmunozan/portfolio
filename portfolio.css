@@ -1,5 +1,5 @@
 body {
-    position: relative;
+	position: relative;
 }
 
 .navbar{
@@ -20,7 +20,7 @@ li {
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    background-color: #222;
+	background-color: #222;
 }
 
 #about {
@@ -35,7 +35,7 @@ li {
 	background: linear-gradient(to right, #dbb539 0%, #f7cf3e 13%, #f7cf3e 36%, #dbb539 100%);/* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbb539', endColorstr='#dbb539', GradientType=1 );/* IE6-9 */
 	min-height: 500px;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 #about a:link, #about a:visited, #about a:hover, #about a:active {
@@ -69,7 +69,7 @@ img.grayscale:hover {
 
 .vertical-align{
 	display: flex;
-    align-items: center;
+	align-items: center;
 	flex-direction: row;
 }
 
@@ -91,7 +91,7 @@ p {
 	background-color: #c5c1c0;
 	background-image: url("http://i.imgur.com/Flyks7z.png");
 	min-height: 500px;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .thumbnail {
@@ -116,7 +116,7 @@ p {
 	color: #fff; 
 	background-color: #1a2930;
 	min-height: 500px;
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .contact-container {
