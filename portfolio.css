@@ -1,0 +1,147 @@
+body {
+    position: relative;
+}
+
+.navbar{
+	font-family: Lobster;
+	font-size: 120%;
+}
+
+.navbar-brand {
+	padding-left: 80px;
+}
+
+.navbar-right {
+	padding-right: 80px;
+}
+
+li {
+	padding-left: 30px;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: #222;
+}
+
+#about {
+	padding-top: 40px;
+	color: #000;
+	background: #dbb539;/* Old Browsers */
+	background: -moz-linear-gradient(left, #dbb539 0%, #f7cf3e 13%, #f7cf3e 36%, #dbb539 100%); /* FF3.6+ */
+	background: -webkit-gradient(left top, right top, color-stop(0%, #dbb539), color-stop(13%, #f7cf3e), color-stop(36%, #f7cf3e), color-stop(100%, #dbb539));/* Chrome, Safari4+ */
+	background: -webkit-linear-gradient(left, #dbb539 0%, #f7cf3e 13%, #f7cf3e 36%, #dbb539 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #dbb539 0%, #f7cf3e 13%, #f7cf3e 36%, #dbb539 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #dbb539 0%, #f7cf3e 13%, #f7cf3e 36%, #dbb539 100%); /* IE 10+ */
+	background: linear-gradient(to right, #dbb539 0%, #f7cf3e 13%, #f7cf3e 36%, #dbb539 100%);/* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbb539', endColorstr='#dbb539', GradientType=1 );/* IE6-9 */
+	min-height: 500px;
+    overflow: hidden;
+}
+
+#about a:link, #about a:visited, #about a:hover, #about a:active {
+	color: darkgreen;
+	text-decoration: none;
+}
+
+.about-container {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+img.grayscale {
+	width:300px;
+	height:100%;
+	margin-bottom: 20px;
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");*/
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+}
+
+img.grayscale:hover {
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	filter: none;
+}
+
+.vertical-align{
+	display: flex;
+    align-items: center;
+	flex-direction: row;
+}
+
+.smaller{
+	font-size: 80%;
+}
+
+h2{
+	margin-bottom: 30px;
+}
+
+p {
+	text-align: left;
+}
+
+#work {
+	padding-top: 40px;
+	color: #000; 
+	background-color: #c5c1c0;
+	background-image: url("http://i.imgur.com/Flyks7z.png");
+	min-height: 500px;
+    overflow: hidden;
+}
+
+.thumbnail {
+	background-color: #222;
+	border-color: #222;
+}
+
+.thumbnail .caption {
+	color: #9d9d9d;
+}
+
+.header-title {
+	margin-bottom: 30px;
+}
+
+.projectRow {
+	margin-bottom: 8px;
+}
+
+#contact {
+	padding-top: 40px;
+	color: #fff; 
+	background-color: #1a2930;
+	min-height: 500px;
+    overflow: hidden;
+}
+
+.contact-container {
+	margin-bottom: 40px;
+}
+
+textarea {
+	resize: none;
+}
+
+#elformo_honeypot {
+	display: none;
+}
+	  
+#contact a:link, #contact a:visited, #contact a:hover, #contact a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+#contact a + a {
+	padding-left: 20px;
+}
+
+.footbar {
+	height: 60px;
+	color: #9d9d9d; 
+	background-color: #222;
+}
