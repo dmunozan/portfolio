@@ -2,7 +2,7 @@ body {
 	position: relative;
 }
 
-.navbar{
+.navbar-inverse{
 	font-family: Lobster;
 	font-size: 120%;
 }
@@ -89,7 +89,7 @@ p {
 	padding-top: 40px;
 	color: #000; 
 	background-color: #c5c1c0;
-	background-image: url("https://cdn.rawgit.com/dmunozan/portfolio/569ccf42/sayagata-400px.png");
+	background-image: url("https://cdn.jsdelivr.net/gh/dmunozan/portfolio@569ccf42034e21cde44923d7c5a36d8fdbfbf7fa/sayagata-400px.png");
 	min-height: 500px;
 	overflow: hidden;
 }
